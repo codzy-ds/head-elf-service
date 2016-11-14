@@ -1,3 +1,9 @@
+import tags from '../models/tagsModel'
+
 export const getTags = (req, res) => {
-  res.send(['messy', 'no spill', 'craft', 'easy', 'quick', 'impressive', 'joke', 'ingenious', 'playfull'])
+  const listTags = tags.find();
+  listTags.then((result) => {
+    let tags = result.map((res) => {return res.tag})
+    res.send(tags);
+  })
 }

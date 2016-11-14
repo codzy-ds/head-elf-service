@@ -1,0 +1,24 @@
+{
+  "type": "gourmand",
+  "tags": ["cuisine", "recettes", "nourriture"]
+}
+{
+  "type": "ingénieur",
+  "tags": ["construction", "ingénieux", "bricolage", "impressionnant"]
+}
+{
+  "type": "artistique",
+  "tags": ["bricolage", "jeu"]
+}
+{
+  "type": "acrobate",
+  "tags": ["acrobatique", "impressionnant"]
+}
+{
+  "type": "propre",
+  "tags": ["sans-dégat", "facile"]
+}
+{
+  "type": "chaotique",
+  "tags": ["ramassage","complexe"]
+}
