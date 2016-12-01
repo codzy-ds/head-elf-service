@@ -15,6 +15,10 @@ const TricksSchema = new mongoose.Schema({
   tags: {
     type: Array,
     required: true
+  },
+  images: {
+    type: Array,
+    required: false
   }
 });
 

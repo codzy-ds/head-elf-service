@@ -1,4 +1,4 @@
-import tags from '../models/tagsModel'
+import tags from '../models/tags.model'
 
 export const getTags = (req, res) => {
   const listTags = tags.find();

@@ -2,5 +2,5 @@
 	"port": 8080,
 	"bodyLimit": "100kb",
 	"corsHeaders": ["Link"],
-	"db": "mongodb://localhost/lutin"
+	"db": "mongodb://172.17.0.2:27017/lutin"
 }
