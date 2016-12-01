@@ -7,7 +7,7 @@ router.route('/')
   .get(getTricks)
   .post(createTrick)
 
-router.route('/:trickId')
+router.route('/id/:trickId')
        .get(getTrickById)
 
 router.route('/random')
