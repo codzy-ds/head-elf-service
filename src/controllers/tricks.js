@@ -19,9 +19,13 @@ export const getTrickById = (req, res) => {
 
 export const createTrick = (req, res) => {
   let newTrick = new tricks(req.body)
-  newTrick.save(() => {
-    res.location('/api/tricks/' + newTrick._id)
-    res.status(201).send()
+  newTrick.save((err) => {
+    if(err) {
+      res.status(500).send(err)
+    } else {
+      res.location('/api/tricks/' + newTrick._id)
+      res.status(201).send()
+    }
   })
 }
 
